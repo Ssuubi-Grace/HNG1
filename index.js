@@ -33,6 +33,12 @@ const isPerfect = (num) => {
   return sum === num;
 };
 
+// Root route ("/") 
+app.get("/", (req, res) => {
+  res.send("Welcome to the Number Classifier API! Use /api/classify-number?number=<your-number> to classify a number.");
+});
+
+
 app.get("/api/classify-number", async (req, res) => {
   if (!req.query.number) {
     return res.status(400).json({ error: true, message: "Missing number parameter" });
