@@ -46,14 +46,15 @@ To run the API locally on your machine, follow these steps:
 ### Clone the repository:
 
 ```bash
-git clone [https://github.com/Ssuubi-Grace/Number-Classifier-API.git](https://github.com/Ssuubi-Grace/Number-Classifier-API.git)
+git clone https://github.com/Ssuubi-Grace/Number-Classifier-API.git
 cd Number-Classifier-API
+
+
 Install Dependencies:
 Make sure Node.js and npm are installed on your system. Then, install the necessary dependencies:
 
-
-
 npm install
+
 Start the Server:
 Run the server using:
 
