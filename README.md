@@ -38,32 +38,38 @@ GET https://number-classifier-api-lzz8.onrender.com/api/classify-number?number=3
   "digit_sum": 11,
   "fun_fact": "371 is an Armstrong number, meaning the sum of its digits raised to the power of 3 equals the number itself."
 }
-Local Deployment (On Your Machine)
+
+## Local Deployment (On Your Machine)
+
 To run the API locally on your machine, follow these steps:
 
-Clone the repository:
+### Clone the repository:
 
-
+```bash
 git clone https://github.com/Ssuubi-Grace/Number-Classifier-API.git
 cd Number-Classifier-API
-Install Dependencies: Make sure Node.js and npm are installed on your system. Then, install the necessary dependencies:
 
+
+###Install Dependencies:
+Make sure Node.js and npm are installed on your system. Then, install the necessary dependencies:
 
 npm install
-Start the Server: Run the server using:
+
+
+###Start the Server: Run the server using:
 
 
 npm start
 This will start the API locally at http://localhost:3000.
 
-Test the Local API: To classify a number locally, make a GET request to:
+###Test the Local API: To classify a number locally, make a GET request to:
 
 
 GET http://localhost:3000/api/classify-number?number=371
 Example Response (Local):
 The response will be the same as the remote response, depending on the number you provide.
 
-Response Fields:
+###Response Fields:
 is_prime: true or false, depending on whether the number is prime.
 is_perfect: true or false, depending on whether the number is perfect.
 properties: An array containing properties like "odd", "even", or "armstrong".
