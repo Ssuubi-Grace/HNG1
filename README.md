@@ -1,4 +1,3 @@
-Based on your provided code for the Number Classifier API built with Node.js and Express, here’s an updated and more relevant README for your project:
 
 Number Classifier API
 
