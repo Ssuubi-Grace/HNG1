@@ -39,8 +39,6 @@ GET https://number-classifier-api-lzz8.onrender.com/api/classify-number?number=3
   "fun_fact": "371 is an Armstrong number, meaning the sum of its digits raised to the power of 3 equals the number itself."
 }
 
-Markdown
-
 ## Local Deployment (On Your Machine)
 
 To run the API locally on your machine, follow these steps:
@@ -50,55 +48,3 @@ To run the API locally on your machine, follow these steps:
 ```bash
 git clone https://github.com/Ssuubi-Grace/Number-Classifier-API.git
 cd Number-Classifier-API
-Install Dependencies:
-Make sure Node.js and npm are installed on your system. Then, install the necessary dependencies:
-
-Bash
-
-npm install
-Start the Server:
-Run the server using:
-
-Bash
-
-npm start
-This will start the API locally at http://localhost:3000.
-
-Test the Local API:
-To classify a number locally, make a GET request to:
-
-GET http://localhost:3000/api/classify-number?number=371
-Example Response (Local):
-
-The response will be the same as the remote response, depending on the number you provide.
-
-Response Fields:
-is_prime: true or false, depending on whether the number is prime.
-is_perfect: true or false, depending on whether the number is perfect.
-properties: An array containing properties like "odd", "even", or "armstrong".
-digit_sum: The sum of the digits of the number.
-fun_fact: A fun fact about the number, fetched from the Numbers API.
-Technologies Used
-Express: A minimal and flexible Node.js web application framework used to build the API.
-Axios: Promise-based HTTP client for making requests, used here to fetch fun facts about the number from the Numbers API.
-CORS: Middleware to allow cross-origin requests from web applications.
-Setup and Installation
-Local Setup:
-
-Clone the repository:
-
-Bash
-
-git clone https://github.com/Ssuubi-Grace/Number-Classifier-API.git
-cd Number-Classifier-API
-Install Dependencies: Make sure Node.js and npm are installed on your system. Then, install the necessary dependencies:
-
-Bash
-
-npm install
-Start the Server: Run the server locally using:
-
-Bash
-
-npm start
-The server will be running at http://localhost:3000.
