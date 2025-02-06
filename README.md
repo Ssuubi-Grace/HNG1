@@ -31,3 +31,4 @@ Example Response:
   "digit_sum": 11,
   "fun_fact": "371 is an Armstrong number, meaning the sum of its digits raised to the power of 3 equals the number itself."
 }
+
